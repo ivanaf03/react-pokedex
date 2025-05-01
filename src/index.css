@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+@theme {
+  --color-rich-black: #051923;
+  --color-prussian-blue: #003554;
+  --color-lapis-lazuli: #006494;
+  --color-steel-blue: #0582CA;
+  --color-picton-blue: #00A6FB;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  @apply bg-rich-black text-white;
+  font-family: 'Pinyon Script', cursive;
+}
